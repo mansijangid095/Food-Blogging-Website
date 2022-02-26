@@ -1,0 +1,221 @@
+#logo{
+    background-image: url(foodies_logo.png);
+    height: 15vh;
+    width: 18vh;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(foodiesfbg11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#navbar ul{
+    display: flex;
+    position: absolute;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+#navbar ul li{
+    list-style: none;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+#navbar ul li a{
+    position: relative;
+    text-decoration: none;
+    display:block;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: .3vh;
+    padding-bottom: .3vh;
+    border-radius: 1.5vh;
+    color: black;
+    /* font-weight: 700; */
+    font-size: 3.6vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li a:hover{
+    background-color: rgb(243, 56, 87);
+    color: aliceblue;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.heading{
+    position: absolute;
+    margin-top: 29vh;
+    font-weight: 800;
+    font-size: 10vh;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: rgb(102, 13, 13);
+    text-align: center;
+}
+
+.hsecondary{
+    margin-top: 27vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Baloo Bhaijaan 2';
+    color: rgb(10, 70, 8);
+}
+#lovedblogs{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recent{
+    margin: 5vh;
+    width: 15vw;
+    height: 25vh;
+    text-align: center;
+}
+.recent img{
+    height: 22vh;
+    width:15vw;
+}
+.recent:hover{
+    height: 28vh;
+    width: 19vw;
+}
+.recent img:hover{
+    height: 28vh;
+    width: 19vw;
+}
+.recent div{
+    text-align: center;
+    background-color: rgb(238, 78, 57);
+    font-family: 'Baloo Bhaijaan 2';
+    font-weight: 400;
+}
+.recent div a{
+    color: rgb(15, 39, 6);
+    text-decoration: none;
+}
+#OwnBlogs{
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+footer{
+    height: 20vh;
+    width: 100;
+    margin-bottom: 0;
+}
+#contact{
+    height: 15vh;
+    width: 100;
+    margin-top: 5vh;
+}
+#handles{
+    background-color: rgb(238, 78, 57);
+    height: 15vh;
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+.contacthandle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.contacthandle a img{
+    justify-content: center;
+    height: 5vh;
+    width: 5vh;
+    margin: 3vh;
+}
+.contacthandle a img:hover{
+    height:5.5vh ;
+    width: 5.5vh;
+}
+#recipes{
+    margin: 5vh;
+}
+#recifood{
+    display: grid;
+    height: 200vh;
+    margin: 2vh;
+}
+.recilist{
+    margin: 2vh;
+    display: grid;
+    height: 25vh;
+    width: 100;
+    overflow: hidden;
+    background-size: cover;
+    /* border: 2px solid black; */
+} 
+.recilist img{
+    display: block;
+    margin-top: 2vh;
+    height: 20vh;
+    width: 30vh;
+    object-fit: cover;
+}
+.bacres{
+    background-color: rgb(238, 78, 57);
+    width: 30vh;
+    margin-bottom: -1.5vh;
+}
+.resmain{
+    margin-left: 50vh;
+    margin-top: 1vh;
+    margin-right: 5vh;
+    position: absolute;
+    height: 25vh;
+    width: auto;
+    overflow:hidden;
+}
+.resmain a{
+    color: blue;
+    text-decoration: none;
+}
+.resmain a:hover{
+    background-color: rgb(238, 78, 57);
+    color: black;
+    font-size: 700;
+}
+#btn{
+    width: 50vh;
+    font-family: 'Baloo Bhaijaan 2';
+    font-weight: 400;
+    color: rgb(15, 39, 6);
+    background-color: rgb(238, 78, 57);
+    border-radius: 1vh;
+}
+#submitresponse{
+    visibility: hidden;
+}
+#details{
+    color: black;
+    font-family: 'Baloo Bhaijaan 2';
+    font-size: 4vh;
+    margin-left: 1vh;
+}
+input[type=text]{
+    margin-left: 8vh;
+    width: 40vh;
+}
+#label{
+    width: 20vh;
+}
